@@ -80,6 +80,30 @@ ul
 }
 /* End of the navbar */
 
+/* start of the hero section */
+.carousel-caption
+{
+    z-index: 10;
+    color: #fff;
+    text-align: left;
+    top: 37%;
+    left: 10;
+    bottom: auto;
+
+}
+.carousel-caption h2
+{
+    width: 470px;
+    font-size: 50px;
+    line-height: 64px;
+    font-weight: 600;
+    margin-bottom: 20px;
+
+}
+/* end of the hero section */
+
+
+
 /* start of the footer */
 .style-icon a
 {
