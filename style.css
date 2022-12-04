@@ -28,6 +28,10 @@ ul
     font: 300 16px/20px Cairo;
     color: #677294;
 }
+button
+{
+    border: none;
+}
 /* start of the header */
 .header
 {
@@ -80,14 +84,23 @@ ul
 /* End of the navbar */
 
 /* start of the hero section */
+.gabbing
+{
+    min-height: 720px;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+
+}
 .carousel-caption
 {
     z-index: 10;
     color: #fff;
     text-align: left;
-    top: 37%;
+    top: 30%;
     left: 10;
     bottom: auto;
+    visibility: visible;
 
 }
 .carousel-caption h2
@@ -99,7 +112,122 @@ ul
     margin-bottom: 20px;
 
 }
+.s-Botton
+{
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 45px;
+    line-height: 26px;
+    padding: 8px 27px;
+    display: inline-block;
+    background-color: #6facfa;
+    color: #fff;
+}
+.s-Botton-2
+{
+    background-color: #f3af4e;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 45px;
+    line-height: 26px;
+    padding: 8px 27px;
+    display: inline-block;
+    color: #fff;
+
+}
 /* end of the hero section */
+
+/* Start of services section */
+.icon
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    line-height: 66px;
+    margin-bottom: 15px;
+}
+
+.card-design
+{
+    border-radius: 24px;
+    height: 200px;
+    /* width: 200px; */
+    margin-top: 10px;
+}
+/* End of services section */
+
+/* start of the ay zft section */
+.featurette-divider {
+    margin: 5rem 0;
+}
+hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 1px solid;
+    opacity: .25;
+}
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    background-color: white !important;
+    border: 1px solid white;
+    border-top: none;
+   
+}
+/* end of the zft section */
+
+/* start of progress circles */
+.paddings
+{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+}
+.circle
+{
+    height: 150px;
+    width: 150px;
+    border: 8px solid #aa6ffa;
+    border-radius: 50%;
+    position: relative;
+
+}
+.circle .box ,
+.circle .box span
+
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
+.circle .box 
+{
+    height: 100%;
+    width: 100%;
+    transform: translate(-50% , -50%);
+    border-radius: 50%;
+
+}
+.circle .box span 
+{
+    transform: translate(-50% , -50%);
+    font-size: 25px;
+    font-weight: 600;
+}
+.text
+{
+    font-size: 20px;
+    font-weight: 500;
+    /* transform: translate(-150% , -50%); */
+
+}
+/* End of progress circles */
+
 
 
 
