@@ -85,6 +85,10 @@ button
 
 /* start of the hero section */
 
+.imgUpdateHeight , .updateHeight
+{
+    height: 800px!important;
+}
 .carousel-caption
 {
     color: #fff;
@@ -96,7 +100,7 @@ button
 }
 .carousel-caption h2
 {
-    width: 470px;
+    /* width: 470px; */
     font-size: 50px;
     line-height: 64px;
     font-weight: 600;
