@@ -84,23 +84,14 @@ button
 /* End of the navbar */
 
 /* start of the hero section */
-.gabbing
-{
-    min-height: 720px;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
 
-}
 .carousel-caption
 {
-    z-index: 10;
     color: #fff;
     text-align: left;
     top: 30%;
     left: 10;
     bottom: auto;
-    visibility: visible;
 
 }
 .carousel-caption h2
@@ -187,50 +178,105 @@ hr {
     padding-bottom: 120px;
 
 }
-.circle
-{
-    height: 150px;
-    width: 150px;
-    border: 8px solid #aa6ffa;
-    border-radius: 50%;
-    position: relative;
 
-}
-.circle .box ,
-.circle .box span
 
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-}
-.circle .box 
-{
-    height: 100%;
-    width: 100%;
-    transform: translate(-50% , -50%);
-    border-radius: 50%;
-
-}
-.circle .box span 
-{
-    transform: translate(-50% , -50%);
-    font-size: 25px;
-    font-weight: 600;
-}
-.text
-{
-    font-size: 20px;
-    font-weight: 500;
-    /* transform: translate(-150% , -50%); */
-
-}
 /* End of progress circles */
 
+/* test */
+.cont
+{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skill
+{
+    width: 160px;
+    height: 160px;
+    position: relative;
+}
+.outer
+{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+}
+.inner
+{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
+}
+#number1 ,#number2 , #number3 ,#number4
+{
+    font-weight: 600;
+    color: #fff;
 
+}
+circle
+{
+    fill: none;
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+}
+#c1
+{
+    animation: anim 2s linear forwards;
 
+}
+#c2
+{
+    animation: anim2 2s linear forwards;
+}
+#c3
+{
+    animation: anim3 2s linear forwards;
+
+}
+#c4
+{
+    animation: anim4 2s linear forwards;
+
+}
+svg
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes anim
+{
+    100%{
+        stroke-dashoffset: 188.8;
+    }
+}
+@keyframes anim2
+{
+    100%{
+        stroke-dashoffset: 118;
+    }
+}
+@keyframes anim3
+{
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+@keyframes anim4
+{
+    100%{
+        stroke-dashoffset: 190;
+    }
+}
+
+/* end of test */
 /* start of the footer */
 .style-icon a
 {
