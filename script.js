@@ -42,28 +42,6 @@ setInterval(()=>{
 }, 100)
 
 
-
-// start of loading page 
-// var loader=document.getElementById("preloader");
-// var loader2=document.getElementById("preloader2")
-// window.addEventListener("load" ,function()  //after loading remove it
-// {
-//   loader.style.display="none";
-//   loader2.style.display="none";
-// })
-// end of loading page
-
-
-var loader = document.querySelector(".loader");
-window.addEventListener("load",vanish);
-function vanish(){
-    loader.classList.add("disappear");
-}
-
-
-
-
-
 let number4 = document.getElementById("number4");
 let counter4 = 220500;
 setInterval(()=>{
@@ -78,5 +56,12 @@ setInterval(()=>{
 }, 50)
 
 
+// start of loading page 
+var loader = document.querySelector(".loader");
+window.addEventListener("load",vanish);
+function vanish(){
+    loader.classList.add("disappear");
+}
+// end of loading page
 
 
