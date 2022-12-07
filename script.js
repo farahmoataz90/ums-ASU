@@ -28,9 +28,6 @@ setInterval(()=>{
 }, 10)
 
 
-
-
-
 let number3 = document.getElementById("number3");
 let counter3 = 220600;
 setInterval(()=>{
@@ -44,6 +41,24 @@ setInterval(()=>{
     
 }, 100)
 
+
+
+// start of loading page 
+// var loader=document.getElementById("preloader");
+// var loader2=document.getElementById("preloader2")
+// window.addEventListener("load" ,function()  //after loading remove it
+// {
+//   loader.style.display="none";
+//   loader2.style.display="none";
+// })
+// end of loading page
+
+
+var loader = document.querySelector(".loader");
+window.addEventListener("load",vanish);
+function vanish(){
+    loader.classList.add("disappear");
+}
 
 
 
