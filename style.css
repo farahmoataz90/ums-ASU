@@ -208,8 +208,17 @@ iframe
 {
     border-radius: 24px;
     height: 200px;
-    /* width: 200px; */
     margin-top: 10px;
+    transition: 0.3s!important;
+    cursor: pointer;
+   
+
+}
+.card-design:hover
+{
+    transform: translate(0,-10px)!important;
+    opacity: 0.8!important;
+    
 }
 /* End of services section */
 
