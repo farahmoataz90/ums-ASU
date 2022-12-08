@@ -35,28 +35,7 @@ button
 /* start of the header */
 
 /* start of the preloader */
-/* #preloader
-{
-    background: white url(loader.gif) no-repeat center center;
 
-    background-size: 10%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 100000;
-} */
-
-/* #preloader2
-{
-    background: white url(result.gif) no-repeat center center;
-    background-size: 20%;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    top: 65%;
-    z-index: 100000;
-    display: flex;
-} */
 iframe
 {
     visibility: hidden;
@@ -80,7 +59,7 @@ iframe
 }
 .disappear
 {
-    animation: vanish 5s forwards;
+    animation: vanish 6s forwards;
 
 }
 @keyframes vanish
@@ -209,13 +188,13 @@ iframe
     border-radius: 24px;
     height: 200px;
     margin-top: 10px;
-    transition: 0.3s!important;
     cursor: pointer;
    
 
 }
 .card-design:hover
 {
+    transition: 0.3s!important;
     transform: translate(0,-10px)!important;
     opacity: 0.8!important;
     
